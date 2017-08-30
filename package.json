@@ -1,10 +1,10 @@
 {
-  "name": "fun.js",
+  "name": "promiseMe.js",
   "description": "",
   "license": "LGPL-2.1",
   "version": "0.0.1",
-  "keywords": ["functional","abstract-machine"],
-  "homepage": "https://github.com/d-plaindoux/talks_n_blog/blob/master/talks/craft/fp%2Bzinc/fun.js",
+  "keywords": ["functional","asynchronous"],
+  "homepage": "https://github.com/d-plaindoux/promiseMe.js",
   "author": {
     "name": "Didier Plaindoux",
     "email": "d.plaindoux@free.fr",
@@ -12,11 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/d-plaindoux/talks_n_blog/blob/master/talks/craft/fp%2Bzinc/fun.js"
+    "url": "https://github.com/d-plaindoux/promiseMe.js"
+  },
+  "bugs": {
+    "url": "https://github.com/d-plaindoux/promiseMe.js/issues"
   },
   "licenses": [
     {
-      "type": "LGPL2"
+      "type": "LGPL2",
+      "url": "https://github.com/d-plaindoux/promiseMe.js/blob/master/LICENSE-LGPL2"
     }
   ],
   "main": "build/lib/index.js",
@@ -50,6 +54,6 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "parser-combinator": "^0.4.1" 
+    "promise": "~7.0.2"
   }
 }

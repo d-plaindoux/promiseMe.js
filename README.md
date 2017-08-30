@@ -1,10 +1,10 @@
-# fun.js
+# promiseMe.js
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 ## Introduction
 
-TODO
+Promise has an open standard [Promise/A+](https://promisesaplus.com) for Javascript. The `promiseMe.js` proposition relies on this open standard for portability and availability purposes and has been designed with one basic idea: all data type provided might be available as monadic structure.
 
 ## License
 
