@@ -5,8 +5,13 @@
  * Licensed under the LGPL2 license.
  */
 
+<<<<<<< HEAD
 import parserTest from './lang/parser_test'
 
 export {
     parserTest
 }
+=======
+export {
+}
+>>>>>>> simplification
