@@ -1,18 +1,15 @@
 /*
- * Magnet
- * https://github.com/d-plaindoux/magnet
+ * fun.js
+ * https://github.com/d-plaindoux/talks_n_blog/blob/master/talks/craft/fp%2Bzinc/fun.js
  *
  * Copyright (c) 2017 Didier Plaindoux
  * Licensed under the LGPL2 license.
  */
 
-import promise from "./concurrent/promise";
-import aTry from "./data/try";
-import maybe from "./data/maybe";
+import parser from "./lang/parser";
+import terms from "./lang/terms";
 
 export default {
-    promise,
-    atry,
-    maybe
+    parser,
+    terms
 }
-

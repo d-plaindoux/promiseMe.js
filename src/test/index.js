@@ -1,15 +1,12 @@
 /*
- * promiseME.js
- * https://github.com/d-plaindoux/magnet
+ * fun.js
  *
  * Copyright (c) 2017 Didier Plaindoux
  * Licensed under the LGPL2 license.
  */
 
-import optionTest from './data/option_test';
-import tryTest from './data/try_test';
+import parserTest from './lang/parser_test'
 
 export {
-    optionTest,
-    tryTest
+    parserTest
 }
